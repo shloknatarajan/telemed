@@ -1,0 +1,23 @@
+{
+  "name": "telemed",
+  "version": "1.0.0",
+  "description": "Telemedicine'",
+  "main": "app.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shloknatarajan/telemed.git"
+  },
+  "author": "Etash Guha",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shloknatarajan/telemed/issues"
+  },
+  "homepage": "https://github.com/shloknatarajan/telemed#readme",
+  "dependencies": {
+    "electron": "^8.2.0"
+  }
+}
