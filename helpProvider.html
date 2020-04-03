@@ -57,10 +57,6 @@
                                         <div tabindex="-1" role="menu" aria-hidden="true" class="dropdown-menu dropdown-menu-right">
                                             <button type="button" tabindex="0" class="dropdown-item">User Account</button>
                                             <button type="button" tabindex="0" class="dropdown-item">Settings</button>
-                                            <h6 tabindex="-1" class="dropdown-header">Header</h6>
-                                            <button type="button" tabindex="0" class="dropdown-item">Actions</button>
-                                            <div tabindex="-1" class="dropdown-divider"></div>
-                                            <button type="button" tabindex="0" class="dropdown-item">Dividers</button>
                                         </div>
                                     </div>
                                 </div>
@@ -71,11 +67,6 @@
                                     <div class="widget-subheading">
                                         Emergency Room Physician
                                     </div>
-                                </div>
-                                <div class="widget-content-right header-user-info ml-3">
-                                    <button type="button" class="btn-shadow p-1 btn btn-primary btn-sm show-toastr-example">
-                                        <i class="fa text-white fa-calendar pr-1 pl-1"></i>
-                                    </button>
                                 </div>
                             </div>
                         </div>
@@ -119,19 +110,15 @@
                             <ul class="vertical-nav-menu">
                                 <li class="app-sidebar__heading">All Pages</li>
                                 <li>
-                                    <a href="index.html">
+                                    <a href="upcomingProvider.html">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Upcoming Visits
                                     </a>
-                                    <a href="index.html">
+                                    <a href="newmeetingProvider.html">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
-                                        Request a Visit
+                                        Create a Meeting
                                     </a>
-                                    <a href="index.html">
-                                        <i class="metismenu-icon pe-7s-rocket"></i>
-                                        Requested Visits
-                                    </a>
-                                    <a href="index.html">
+                                    <a href="helpProvider.html">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
                                         Help
                                     </a>
@@ -148,59 +135,22 @@
                                         <i class="pe-7s-drawer icon-gradient bg-happy-itmeo">
                                         </i>
                                     </div>
-                                    <div>Upcoming Appointments
-                                        <div class="page-title-subheading">View all your patients and check their medical history here.
-                                        </div>
+                                    <div>Start a Meeting
+                                        <div class="page-title-subheading">Create a meeting with your patients</div>
                                     </div>
                                 </div>
                                 <div class="page-title-actions">
                                 </div>    
                             </div>
-                        </div>            
-                        <div class="row">
-                            <div class="col-lg-12">
-                                <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">All Patients</h5>
-                                        <div class="table-responsive">
-                                            <table class="mb-0 table">
-                                                <thead>
-                                                <tr>
-                                                    <th>#</th>
-                                                    <td></td>
-                                                    <th>Date</th>
-                                                    <th>Time</th>
-                                                    <th>Name</th>
-                                                    <th>Age</th>
-                                                    <th>Sex</th>
+                        </div>  
+                        <!-- Create a Meeting Page-->
+                        <label for="email">Patient Email Address:</label>
+                        <input type="email" id="email" name="email">
+                        <p>(Patient's will recieve an invitation for the meeting and can join at anytime)</p>
+                        <button class="mb-2 mr-2 btn btn-success">Start Meeting</button>
 
-                                                </tr>
-                                                </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <th><button class="mb-2 mr-2 btn btn-success">Start</button><button class="mb-2 mr-2 btn btn-danger">Cancel</button></th>
-                                                    <td>4/2/2020</td>
-                                                    <td>4:00 PM</td>
-                                                    <td>Bill Gates</td>
-                                                    <td>64</td>
-                                                    <td>Male</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <th><button class="mb-2 mr-2 btn btn-success disabled">Start</button><button class="mb-2 mr-2 btn btn-danger">Cancel</button></th>
-                                                    <td>4/2/2020</td>
-                                                    <td>6:00 PM</td>
-                                                    <td>Bill Gates</td>
-                                                    <td>64</td>
-                                                    <td>Male</td>
-                                                </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
+                                
+                        
                     </div> 
                 </div>
         </div>
