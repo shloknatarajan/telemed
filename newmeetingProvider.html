@@ -8,9 +8,7 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Telemed</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-    <link href="css/main.css" rel="stylesheet">
-</head>
-<link href="css/videochat.css" rel="stylesheet">
+<link href="css/main.css" rel="stylesheet"></head>
 <body>
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
         <div class="app-header header-shadow">
@@ -114,7 +112,11 @@
                                 <li>
                                     <a href="upcomingProvider.html">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
-                                        Appointment Invitations
+                                        Upcoming Visits
+                                    </a>
+                                    <a href="newmeetingProvider.html">
+                                        <i class="metismenu-icon pe-7s-rocket"></i>
+                                        Create a Meeting
                                     </a>
                                     <a href="helpProvider.html">
                                         <i class="metismenu-icon pe-7s-rocket"></i>
@@ -128,8 +130,7 @@
                             </ul>
                         </div>
                     </div>
-                </div>    
-                <div class="app-main__outer">
+                </div>    <div class="app-main__outer">
                     <div class="app-main__inner">
                         <div class="app-page-title">
                             <div class="page-title-wrapper">
@@ -138,8 +139,8 @@
                                         <i class="pe-7s-drawer icon-gradient bg-happy-itmeo">
                                         </i>
                                     </div>
-                                    <div>Live Video Chat
-                                        <!-- <div class="page-title-subheading">What is VDoc?</div> -->
+                                    <div>Start a Meeting
+                                        <div class="page-title-subheading">Create a meeting with your patients</div>
                                     </div>
                                 </div>
                                 <div class="page-title-actions">
@@ -147,8 +148,11 @@
                             </div>
                         </div>  
                         <!-- Create a Meeting Page-->
-                        <div id="subscriber"></div>
-                        <div id="publisher"></div>
+                        <label for="email">Patient Email Address:</label>
+                        <input type="email" id="email" name="email">
+                        <p>(Patient's will recieve an invitation for the meeting and can join at anytime)</p>
+                        <button class="mb-2 mr-2 btn btn-success">Start Meeting</button>
+
                                 
                         
                     </div> 
@@ -156,5 +160,4 @@
         </div>
     </div>
 <script type="text/javascript" src="scripts/main.js"></script></body>
-<script src="openTok.js"></script>
 </html>

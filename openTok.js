@@ -3,7 +3,7 @@ const OT = require('@opentok/client');
 // Set Credentials
 const apiKey = '46643022';
 const sessionId = '2_MX40NjY0MzAyMn5-MTU4NTk4MjY5NjE3Mn56d0d2YWxtdkRqK0xkVmJRdWdNSmJQSVR-fg';
-const token = 'T1==cGFydG5lcl9pZD00NjY0MzAyMiZzaWc9N2ZiNDhmYTVlYTQwNDcxYWQ4NWVhOTc3MGRiNDU0YzcyMmIxZWIzZTpzZXNzaW9uX2lkPTJfTVg0ME5qWTBNekF5TW41LU1UVTROVGs0TWpZNU5qRTNNbjU2ZDBkMllXeHRka1JxSzB4a1ZtSlJkV2ROU21KUVNWUi1mZyZjcmVhdGVfdGltZT0xNTg1OTgyNzEzJm5vbmNlPTAuOTQ3Mjk4MjA5MjUwNjkzMiZyb2xlPXB1Ymxpc2hlciZleHBpcmVfdGltZT0xNTg4NTc0NzEyJmluaXRpYWxfbGF5b3V0X2NsYXNzX2xpc3Q9'
+const token = 'T1==cGFydG5lcl9pZD00NjY0MzAyMiZzaWc9MzBkOWI1ZjBmMTFiZjMyNjIyYTAwYzQ2M2FkOTU3MjA2NzU1ZDA4OTpzZXNzaW9uX2lkPTJfTVg0ME5qWTBNekF5TW41LU1UVTROVGs0TWpZNU5qRTNNbjU2ZDBkMllXeHRka1JxSzB4a1ZtSlJkV2ROU21KUVNWUi1mZyZjcmVhdGVfdGltZT0xNTg1OTgyOTY1Jm5vbmNlPTAuNzk2MTk3NTY5NjExMTc1MiZyb2xlPXB1Ymxpc2hlciZleHBpcmVfdGltZT0xNTg4NTc0OTY0JmluaXRpYWxfbGF5b3V0X2NsYXNzX2xpc3Q9'
 if (!apiKey || !sessionId || !token) {
   alert('You need to add your apiKey, sessionId and token to openTok.js');
 }

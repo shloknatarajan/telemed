@@ -1,0 +1,35 @@
+#personalcontainer {
+    text-align: center;
+    padding: 20px;
+    background: lightblue;
+}
+
+#publisher {
+    border-radius: 7px;
+}
+
+@media screen and (min-width: 768px) {
+    #subscriber {
+        width: 50% !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (min-width: 912px) {
+    #subscriber {
+        width: 50% !important;
+        height: auto !important;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #subscriber {
+        width: 50% !important;
+        height: auto !important;
+    }
+}
+
+#othercontainer {
+    text-align: center;
+    width: 100%;
+}
