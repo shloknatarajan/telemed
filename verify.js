@@ -15,26 +15,35 @@ firebase.initializeApp(firebaseConfig);
 
 email = "etashthebomb@gmail.com"
 password  = "Ayan1&Etash2"
+
+document.getElementById('login').addEventListener('click', () => {
+	signIn()
+})
+
+
 function signUp() {
 	firebase.auth().createUserWithEmailAndPassword(email, password).then(function(result){
 		alert("user create")
 	}).catch(function(error){
-		if(err){
-			console.log(err)
+		if(error){
+			console.log(error)
 			return;
 		}
 	})
 }
 
 function signIn() {
+	var email = document.getElementById("email").value
+	var password = document.getElementById("password").value
 	firebase.auth().signInWithEmailAndPassword(email, password).then(function(result){
 		console.log(result)
 		alert("sign in succesful")
+		console.log(firebase.auth().currentUser())
 	}).catch(function(error){
-		if(err){
-			console.log(err)
+		alert("Incorrent email/password")
+		if(error){
+			console.log(error)
 			return;
 		}
 	})
 }
-signIn()
