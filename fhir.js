@@ -27,7 +27,7 @@ function getPatient() {
 		console.log(body);
 	});
 }
-getPatient()
+// getPatient()
 
 function postPatient() {
 	var options = {
@@ -70,3 +70,7 @@ function postPatient() {
 	});
 
 }
+
+
+
+
