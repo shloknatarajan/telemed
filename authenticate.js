@@ -48,7 +48,7 @@ var options = {
     client_id: "c8f568b5-f39d-4c1b-a68a-c05acd1ce6bb",
     client_secret: clientSecret,
   },
-  body: {
+  body  : {
     grant_type: 'client_credentials',
     client_id: "c8f568b5-f39d-4c1b-a68a-c05acd1ce6bb",
     client_secret: clientSecret,

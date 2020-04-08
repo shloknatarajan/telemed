@@ -24,10 +24,12 @@
     "electron-google-oauth": "^2.0.0",
     "electron-oauth2": "^3.0.0",
     "firebase": "^7.13.2",
+    "firebase-admin": "^8.10.0",
     "google-sign-in": "^3.0.3",
     "googleapis": "^48.0.0",
     "gtoken": "^5.0.0",
     "jquery": "^3.4.1",
+    "moment": "^2.24.0",
     "request": "^2.88.2",
     "simple-oauth2": "^3.4.0"
   }
