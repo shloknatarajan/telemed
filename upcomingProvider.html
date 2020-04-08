@@ -8,7 +8,14 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>Telemed</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no, shrink-to-fit=no" />
-<link href="css/main.css" rel="stylesheet"></head>
+    
+    <!-- Stylesheets -->
+    <link href="css/main.css" rel="stylesheet">
+
+     <!-- Scripts -->
+     <script type="text/javascript" src="scripts/main.js"></script>
+
+</head>
 <body>
     <div class="app-container app-theme-white body-tabs-shadow fixed-sidebar fixed-header">
         <div class="app-header header-shadow">
@@ -152,7 +159,7 @@
                         <div class="row">
                             <div class="col-lg-12">
                                 <div class="main-card mb-3 card">
-                                    <div class="card-body"><h5 class="card-title">All Patients</h5>
+                                    <div class="card-body"><h5 class="card-title">Pending Calls</h5>
                                         <div class="table-responsive">
                                             <table class="mb-0 table">
                                                 <thead>
@@ -161,31 +168,14 @@
                                                     <td></td>
                                                     <th>Date</th>
                                                     <th>Time</th>
-                                                    <th>Name</th>
-                                                    <th>Age</th>
-                                                    <th>Sex</th>
+                                                    <!-- <th>Name</th> -->
+                                                    <!-- <th>Age</th> -->
+                                                    <!-- <th>Sex</th> -->
 
                                                 </tr>
                                                 </thead>
-                                                <tbody>
-                                                <tr>
-                                                    <th scope="row">1</th>
-                                                    <th><button class="mb-2 mr-2 btn btn-success">Start</button><button class="mb-2 mr-2 btn btn-danger">Cancel</button></th>
-                                                    <td>4/2/2020</td>
-                                                    <td>4:00 PM</td>
-                                                    <td>Bill Gates</td>
-                                                    <td>64</td>
-                                                    <td>Male</td>
-                                                </tr>
-                                                <tr>
-                                                    <th scope="row">2</th>
-                                                    <th><button class="mb-2 mr-2 btn btn-success disabled">Start</button><button class="mb-2 mr-2 btn btn-danger">Cancel</button></th>
-                                                    <td>4/2/2020</td>
-                                                    <td>6:00 PM</td>
-                                                    <td>Bill Gates</td>
-                                                    <td>64</td>
-                                                    <td>Male</td>
-                                                </tr>
+                                                <tbody id="meetingsTable">
+                                                    <!-- Dates Inserted here from joinmeeting.js -->
                                                 </tbody>
                                             </table>
                                         </div>
@@ -197,5 +187,6 @@
                 </div>
         </div>
     </div>
-<script type="text/javascript" src="scripts/main.js"></script></body>
+    <script type="text/javascript" src="scripts/joinmeeting.js"></script>
+</body>
 </html>
