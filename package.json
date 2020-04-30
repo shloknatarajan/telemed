@@ -28,7 +28,7 @@
     "google-sign-in": "^3.0.3",
     "googleapis": "^48.0.0",
     "gtoken": "^5.0.0",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "moment": "^2.24.0",
     "request": "^2.88.2",
     "simple-oauth2": "^3.4.0"
