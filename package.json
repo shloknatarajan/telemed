@@ -24,7 +24,7 @@
     "electron-google-oauth": "^2.0.0",
     "electron-oauth2": "^3.0.0",
     "firebase": "^7.13.2",
-    "firebase-admin": "^8.10.0",
+    "firebase-admin": "^11.4.1",
     "google-sign-in": "^3.0.3",
     "googleapis": "^48.0.0",
     "gtoken": "^5.0.0",
